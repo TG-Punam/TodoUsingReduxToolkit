@@ -1,0 +1,93 @@
+/* src/styles.css */
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .add-todo-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .add-todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .add-todo-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-todo-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 15px;
+  }
+  
+  .todo-item input[type="text"] {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    flex-grow: 1;
+  }
+  
+  .todo-item.completed input[type="text"] {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .remove-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .remove-btn:hover {
+    background-color: #c82333;
+  }
+  
